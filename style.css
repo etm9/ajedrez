@@ -2,9 +2,10 @@ body{
  
   margin-left:30%;
   margin-top: 5%;
-  background-color: #173174;
+  background-color: #fcc02d;
 }
-p{color:white;
+p{
+  color:white;
     font-family: "Garamond";
     font-size: 40px;
     margin-left: 30%;
@@ -13,16 +14,14 @@ p{color:white;
 #tabla{
   display: table;
   border: 15px solid white;
-  width: 40vw;
-  height: 40vw;
-
+  width: 30vw;
+  height: 30vw;
 }
-
 .bigsquare {
     display: flex;
-    border: 5px solid yellow;
-    width: 30vw;
-    height: 30vw;
+    border: 3px solid black;
+    width: 25vw;
+    height: 25vw;
 
 }
 .fila{
@@ -41,7 +40,7 @@ p{color:white;
 
 .col-b {
 	display: table-cell;
-    background-color: yellow;
+    background-color: black;
     width: 5vw;
     height: 5vw;
 }
