@@ -1,0 +1,47 @@
+body{
+ 
+  margin-left:30%;
+  margin-top: 5%;
+  background-color: #173174;
+}
+p{color:white;
+    font-family: "Garamond";
+    font-size: 40px;
+    margin-left: 30%;
+    width: 53%;
+	}
+#tabla{
+  display: table;
+  border: 15px solid white;
+  width: 40vw;
+  height: 40vw;
+
+}
+
+.bigsquare {
+    display: flex;
+    border: 5px solid yellow;
+    width: 30vw;
+    height: 30vw;
+
+}
+.fila{
+  display: table-row;
+
+}
+
+.col-w {
+	display: table-cell;
+	padding: 12px;
+    background-color: red;
+    border: 1px solid #E7B247;
+    width: 5vw;
+    height: 5vw;
+}
+
+.col-b {
+	display: table-cell;
+    background-color: yellow;
+    width: 5vw;
+    height: 5vw;
+}
